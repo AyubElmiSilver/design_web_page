@@ -3,10 +3,15 @@
     min-height: 50vh; 
 }
 
+.image {
+  max-width: 300px;
+  margin: 0 100px; 
+}
+
 .header {
     display: flex;
     justify-content: space-around;
-    padding-top: 20px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -26,4 +31,42 @@ a {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.sub-header {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.button {
+    border-radius: 15%;
+    padding: 20px 50px;
+    font-size: 13px;
+}
+
+.texts {
+  flex: 1 0 0;
+  margin-left: 130px;
+  padding-bottom: 30px;
+  margin-top: 60px;
+    
+}
+.text-a {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.text-b {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-top: 5px;
+}
+
+.button {
+    background-color: #3882f6;
+    color: #f9faf8;
+
 }
