@@ -87,7 +87,8 @@ a {
 .boxes {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 10px;
 }
 
 .container {
