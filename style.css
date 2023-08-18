@@ -1,3 +1,7 @@
+* {
+   /* outline: 2px solid red; */
+}
+
 .sec-one {
     background-color: #1F2937;  
 }
@@ -115,4 +119,45 @@ a {
     font-weight: 900;
     display: flex;
     justify-content: flex-end;
+}
+
+/* Section Four */
+
+.sec-four {
+    padding: 100px;
+}
+
+.persuade {
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 50px;
+    border-radius: 2%;
+
+}
+
+#important, #follower, #down {
+    color: #ffffff;
+}
+
+#important {
+    font-weight: 900;
+    
+}
+
+#important, #follower {
+    margin: 0px;
+}
+
+#down {
+    background-color: #3882f6;
+    border: 2px solid #f9faf8;
+    width: 15%;
+    border-radius: 10%;
+}
+
+.call-sign {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
