@@ -162,3 +162,16 @@ a {
     flex-direction: column;
     align-content: center;
 }
+
+/* Section Five */
+
+.sec-five {
+    padding: 25px;
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    color: #E5E7EB;
+}
